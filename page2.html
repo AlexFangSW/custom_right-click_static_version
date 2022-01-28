@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/46fda9ac8f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Script -->
+    <script src="script.js" defer></script>
+    <title>Custom context menu</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="page2.html" class="selected">Page2</a>
+        <a href="page3.html">Page3</a>
+      </nav>
+    </header>
+    <div class="main-container">
+      <h1>Page2</h1>
+      <div class="clicked-icon"><i class="fab fa-accusoft"></i></div>
+      <div class="add-icon-container">
+        <span>Add Icon</span>
+        <input type="text" placeholder="ex : fab fa-accusoft" />
+        <button class="add-icon"><i class="fas fa-plus"></i></button>
+      </div>
+      <div class="registerd-icons-container">
+        <div class="icon-info">
+          <div class="icon"><i class="fab fa-accusoft"></i></div>
+          <div class="icon-name">fab fa-accusoft</div>
+          <button class="delete"><i class="fas fa-trash"></i></button>
+        </div>
+        <div class="icon-info">
+          <div class="icon"><i class="fab fa-accusoft"></i></div>
+          <div class="icon-name">fab fa-accusoft</div>
+          <button class="delete"><i class="fas fa-trash"></i></button>
+        </div>
+        <div class="icon-info">
+          <div class="icon"><i class="fab fa-accusoft"></i></div>
+          <div class="icon-name">fab fa-accusoft</div>
+          <button class="delete"><i class="fas fa-trash"></i></button>
+        </div>
+      </div>
+    </div>
+    <!-- Custom context menu -->
+    <div class="custom-content-menu">
+      <div class="icon-container">
+        <div class="icon"><i class="fab fa-accusoft"></i></div>
+        <div class="context">fab fa-accusoft</div>
+      </div>
+      <div class="icon-container">
+        <div class="icon"><i class="fab fa-accusoft"></i></div>
+        <div class="context">fab fa-accusoft</div>
+      </div>
+      <div class="icon-container">
+        <div class="icon"><i class="fab fa-accusoft"></i></div>
+        <div class="context">fab fa-accusoft</div>
+      </div>
+    </div>
+  </body>
+</html>
